@@ -30,7 +30,8 @@ Each button is linked to a sound file. Clicking a button will play the associate
 ## Example
 Here’s a brief overview of how the button grid is set up in sketch.js:
 
-'''javascript
+'''
+javascript
 class Button {
   constructor(x, y, w, h, color, accent, sound) {
     this.x = x;
@@ -70,7 +71,7 @@ class Button {
     }
   }
 }
-
+'''
 
 ## Contributing
 Credit to Ellie Popoca for tutorial in Codedex. Feel free to fork the repository and make modifications. If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.
