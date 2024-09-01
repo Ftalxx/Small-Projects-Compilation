@@ -10,7 +10,7 @@ def get_meme():
 # Function to get AI response from Hugging Face GPT-2 model
 def get_ai_response(prompt):
     headers = {
-        'Authorization': 'Bearer {}', 
+        'Authorization': 'Bearer {}', #Add on HugginFace Token
         'Content-Type': 'application/json'
     }
     data = {
@@ -48,4 +48,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('') 
+client.run('') #Add on Discord Bot token
