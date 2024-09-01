@@ -4,10 +4,10 @@ Welcome to my Small Projects Compilation repository! This collection showcases a
 
 ## Projects
 
-### 1. Discord Bot
+### 1. Python Discord Bot
 A custom-built Discord bot that interacts with users and performs specific tasks based on commands. For more details, check out the [Discord Bot README](./discord-bot/README.md).
 
-### 2. Music Soundboard
+### 2. Javascript Music Soundboard
 An interactive music soundboard application that allows users to trigger different sounds with buttons. For more details, visit the [Music Soundboard README](./music-soundboard/README.md).
 
 ## Contributing
