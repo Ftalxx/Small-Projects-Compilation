@@ -3,6 +3,10 @@
 ## Overview
 This project is a soundboard created using p5.js, designed to play various sounds through a grid of interactive buttons. Each button triggers a specific sound when clicked. The project utilizes p5.js for both the layout and sound functionality.
 
+## Demo Video
+
+[![Demo Video](https://img.youtube.com/vi/iHliEX8mD24/maxresdefault.jpg)](https://youtu.be/iHliEX8mD24)
+
 ## Features
 - **Interactive Button Grid**: A 3x3 grid of buttons, each associated with a different sound.
 - **Sound Playback**: Each button, when clicked, plays a corresponding sound file.
