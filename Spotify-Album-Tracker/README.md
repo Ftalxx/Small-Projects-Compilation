@@ -46,7 +46,7 @@ For the sake of simplicity I will just be showing my personal code
 If you encounter issues with authentication or data fetching, check your console for error messages and ensure your environment variables are correctly set.
 
 ## Contributing
-Credit to Ellie Popoca from Codedex. Feel free to submit issues or pull requests if you encounter bugs or have suggestions for improvements.
+Credit to Ellie Popoca from Codedex for tutorial. Feel free to submit issues or pull requests if you encounter bugs or have suggestions for improvements.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
