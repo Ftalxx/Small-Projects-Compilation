@@ -6,7 +6,7 @@ This React application allows users to search for artists, view their top albums
 
 ## Video Demo
 
-[![(https://img.youtube.com/vi/Fse5hqGLCiE/0.jpg)](https://youtu.be/Fse5hqGLCiE)
+[![Video Demo](https://img.youtube.com/vi/Fse5hqGLCiE/0.jpg)](https://youtu.be/Fse5hqGLCiE)
 
 ## Features
 
