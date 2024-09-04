@@ -10,8 +10,11 @@ A custom-built Discord bot that interacts with users and performs specific tasks
 ### 2. Javascript Music Soundboard
 An interactive music soundboard application that allows users to trigger different sounds with buttons. For more details, visit the [Music Soundboard README](./music-soundboard/README.md).
 
-### 3. Spotify Song & Album Tracker
+### 3. React Spotify Song & Album Tracker
 A React application that allows users to search for artists, view their top albums, and retrieve the top 3 tracks from each album. For more details, see the [Spotify App README](./Spotify-Album-Tracker/README.md).
+
+### 4. Phaser Flappy Bird Clone
+A classic Flappy Bird clone built using Phaser, an HTML5 game framework. This game allows players to navigate a bird through columns, with functionality for game start, movement, collision detection, and restart. For more details, refer to the [Flappy Bird Clone README](./flappy-bird-clone/README.md).
 
 ## Contributing
 If you have suggestions or improvements for any of the projects, feel free to open an issue or submit a pull request. Contributions are welcome!
