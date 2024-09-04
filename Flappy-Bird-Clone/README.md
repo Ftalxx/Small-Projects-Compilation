@@ -1,65 +1,71 @@
-# Spotify Top Tracks & Recommendations App
+# Flappy Bird Clone
 
 ## Overview
 
-This React application allows users to search for artists, view their top albums, and retrieve the top 3 tracks from each album.
+This project is a Flappy Bird clone built using Phaser, a popular HTML5 game framework. The game features classic Flappy Bird gameplay where players control a bird to navigate through columns and avoid obstacles.
 
 ## Video Demo
 
-[![Video Demo](https://img.youtube.com/vi/Fse5hqGLCiE/0.jpg)](https://youtu.be/Fse5hqGLCiE)
+[![Video Demo](https://img.youtube.com/vi/SgASo4ypxMY/0.jpg)]([https://youtu.be/SgASo4ypxMY])
 
 ## Features
 
-- **Search for Artists:** Enter an artist's name to retrieve their top albums.
-- **Top Albums:** View the top albums for the selected artist.
-- **Top 3 Tracks per Album:** Display the top 3 tracks from each album, sorted by popularity.
-- **Personalized Recommendations:** Get personalized song recommendations based on your top tracks.
+- **Game Start:** Press the spacebar to start the game.
+- **Bird Movement:** Use the up arrow to make the bird move upwards.
+- **Collision Detection:** The game ends when the bird collides with columns or the ground.
+- **Restart Functionality:** After a game over, press the spacebar to restart the game.
+- **Winning Condition:** The game ends with a win message when the bird reaches the right edge of the screen.
 
 ## Technologies Used
 
-- **React:** Frontend library for building user interfaces.
-- **Spotify Web API:** Fetch artist information, album details, and personalized recommendations.
-- **React Bootstrap:** Styling components for a responsive UI.
+- **Phaser:** A fast, robust, and versatile HTML5 game framework for building 2D games.
+- **HTML/CSS:** For the basic structure and styling of the webpage.
 
 ## Setup
 
 ### Prerequisites
 
-- Node.js
-- npm (Node Package Manager)
+- A modern web browser
 
 ### Installation
 
-1. **Clone the repository:**
-
-Tutorial and repository with aditional files available here - https://github.com/exrlla/codedex-api-template
-For the sake of simplicity I will just be showing my personal code
+1. **Download Files**
+Open index.html in a web browser: Simply open the index.html file in your favorite browser to start playing the game.
 
 ## Usage
 
-**Authenticate with Spotify:** Upon first visit, you'll be redirected to Spotify to authorize the app and obtain an access token.
-**Search for an Artist:** Type the name of an artist and press "Search" to view their top albums.
-**View Albums:** Click on an album to see its cover image and the top 3 tracks.
-**Redirect URI:** Ensure your Spotify Developer Dashboard is configured with the correct redirect URI (http://localhost:3000 or your production URL).
+**Start the Game:** Press the spacebar to start the game after loading.
+**Control the Bird:** Use the up arrow key to move the bird upwards.
+**Restart the Game:** When the game ends, press the spacebar to restart.
 
 ## Troubleshooting
-If you encounter issues with authentication or data fetching, check your console for error messages and ensure your environment variables are correctly set.
+
+If the game does not load or function properly:
+
+- Ensure your browser supports HTML5 and JavaScript.
+- Check the browser console for any error messages and debug accordingly.
 
 ## Contributing
-Credit to Ellie Popoca from Codedex for tutorial. Feel free to submit issues or pull requests if you encounter bugs or have suggestions for improvements.
+
+Credit to David Verghese from Codedex for tutorial. Feel free to submit issues or pull requests if you encounter bugs or have suggestions for improvements.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For any questions or support, please contact your-email@example.com.
 
+For any questions or support, please contact ft.alxx@gmail.com.
 
-### React + Vite
+## HTML/CSS Customizations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In the index.html file:
 
-Currently, two official plugins are available:
+- **Background Color:** The body background color is set to a light blue for a clear game area.
+- **Text Positioning:** The text "Flappy Bird Clone" is positioned to the right of the screen for visibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app.js file contains the Phaser game logic including:
+
+- **Game Configuration:** Set up renderer, dimensions, and physics.
+- **Game Scenes:** Preload, create, and update functions to handle game logic.
+- **Restart Mechanism:** Allows the game to be restarted after ending.
