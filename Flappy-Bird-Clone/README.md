@@ -6,7 +6,7 @@ This project is a Flappy Bird clone built using Phaser, a popular HTML5 game fra
 
 ## Video Demo
 
-[![Video Demo](https://img.youtube.com/vi/SgASo4ypxMY/0.jpg)]([https://youtu.be/SgASo4ypxMY])
+[![Video Demo](https://img.youtube.com/vi/SgASo4ypxMY/0.jpg)](https://youtu.be/SgASo4ypxMY)
 
 ## Features
 
