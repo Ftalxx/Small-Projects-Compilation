@@ -3,6 +3,7 @@
 Welcome to my Small Projects Compilation repository! This collection showcases a variety of personal projects demonstrating my skills across different computing languages and concepts. Each project highlights my abilities in programming, problem-solving, and creative application development.
 
 - Projects are categorized from most recent to oldest
+- Links to the project's README file available
 
 ## Projects
 
