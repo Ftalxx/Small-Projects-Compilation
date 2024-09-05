@@ -34,9 +34,10 @@ This project is a work tracking application that integrates real-time chat funct
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yourusername/Socket-MongoDB-Work-Tracker.git
-   cd Socket-MongoDB-Work-Tracker
+```bash
+git clone https://github.com/yourusername/Socket-MongoDB-Work-Tracker.git
+cd Socket-MongoDB-Work-Tracker
+```
 
 2. **Install Dependencies**
 
@@ -72,15 +73,18 @@ Navigate to http://localhost:3000 in your web browser.
 
 If the application does not work as expected:
 
-Ensure MongoDB Atlas connection details are correct and the database is accessible.
-Verify that all dependencies are installed correctly.
-Check the browser console and server logs for any error messages and debug accordingly.
-Contributing
+Ensure MongoDB Atlas connection details are correct and the database is accessible. <br>
+Verify that all dependencies are installed correctly. <br>
+Check the browser console and server logs for any error messages and debug accordingly. <br>
+
+## Contributing 
+
 Feel free to submit issues or pull requests if you encounter bugs or have suggestions for improvements.
 
 ## License
 
-Credit to Dharmarajsinh Jethva for basis of code, see Codedex.com for more information. This project is licensed under the MIT License - see the LICENSE file for details.
+Credit to Dharmarajsinh Jethva for basis of code, see Codedex.com for more information. <br> 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
@@ -90,9 +94,10 @@ For any questions or support, please contact ft.alxx@gmail.com.
 
 In the index.html file:
 
-Background: A complex multi-layered background with gradients for a visually appealing interface.
-Text Positioning: The "Data Log" button is positioned at the bottom-right corner for easy access.
+Background: A complex multi-layered background with gradients for a visually appealing interface. <br>
+Text Positioning: The "Data Log" button is positioned at the bottom-right corner for easy access. <br>
+
 In the script.js file:
 
-Chat Functionality: Includes logic for sending and receiving messages and updating the chat window.
+Chat Functionality: Includes logic for sending and receiving messages and updating the chat window. <br>
 Task Management: Handles task creation, fetching, and rendering in the sidebar.
