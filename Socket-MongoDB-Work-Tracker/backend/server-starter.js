@@ -9,7 +9,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 // MongoDB Atlas connection string
-const mongoURI = 'mongodb+srv://ftalxx:Jaz.13463631@chatappcluster0.s9ims.mongodb.net/';
+const mongoURI = 'mongodb+srv://ftalxx:<password>@chatappcluster0.s9ims.mongodb.net/'; //switch password with Cluster password
 
 // Connect to MongoDB Atlas
 mongoose.connect(mongoURI, {}).then(() => console.log("MongoDB connected"))
